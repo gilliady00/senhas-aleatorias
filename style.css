@@ -1,0 +1,141 @@
+body{
+    background-color: var(--cinza);
+}
+
+:root{
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --rosa: hotpink;
+    --ouro: gold;
+    --cinza: gray;
+    --verde: chartreuse;
+    --azul-claro: cornflowerblue;
+}
+
+.conteudo-titulo{
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--rosa);
+}
+
+#campo-senha{
+    background-color: var(--azul-claro);
+    padding: 8px;
+    width: 300px;
+    font-family: var(--fonte-titulo);
+    border: none;
+    font-size: 25px;
+}
+
+.conteudo-senha{
+    background-color: var(--azul-claro);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+    border-bottom: 6px solid var(--ouro);
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.secao{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parametro-senha-botoes{
+    display: flex;
+    margin: 50px;
+}
+
+@media screen and (min-width: 768px){}
+
+.parametro-senha_botao{
+    background-color: var(--ouro);
+    border: 2px solid var(--rosa);
+    padding: 10px;
+    cursor: pointer;
+    }
+ 
+.parametro-senha_texto{
+    padding: 10px;
+    border-top: 2px solid var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+    background-color: var(--ouro);
+    margin: 0;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte-titulo);
+    margin: 50px;
+    color: var(--ouro);
+    font-size: 50px;
+}
+
+.parametro-senha-titulo{
+    font-family: var(--fonte-titulo);
+    margin: 30px;
+    text-align: center;
+    font: 25px;
+    color: blue;
+}
+
+.parametro{
+    display: flex;
+}
+
+.parametro{
+    border: 2px solid var(--fonte-titulo);
+    border-radius: 50px;
+    margin: 50px;
+    padding: 10px;
+}
+
+label{
+    font-size: 25px;
+    font-family: var(--fonte-titulo);
+    font-size: 25px;
+    color: var(--verde);
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra{
+    background-color: var(--azul-claro);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca{
+    width: 25%;
+    background-color: red;
+}
+
+.parametro-senhas-texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    background-color: green;
+    width: 50%;
+}
+
+.forte{
+    background-color: green;
+    width: 100%;
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
